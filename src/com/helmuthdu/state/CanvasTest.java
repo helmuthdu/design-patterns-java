@@ -27,7 +27,7 @@ public class CanvasTest {
     }
 
     @Test
-    public void shouldSaveAndRestoreStateHistory() {
+    public void shouldUseTheSelectedTool() {
         var canvas = new Canvas();
 
         canvas.setCurrentTool(new SelectionTool());
